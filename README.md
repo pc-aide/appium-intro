@@ -31,10 +31,13 @@ brew install --cask temurin
 
 ## env var
 ````ps1
-export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools:$ANDROID_HOME/cmdline-tools/latest/bin
+#!/bin/bash
+# Configuration Android SDK
 export ANDROID_SDK_ROOT=/opt/homebrew/share/android-commandlinetools
+export ANDROID_HOME=$ANDROID_SDK_ROOT
+export PATH=$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$ANDROID_SDK_ROOT/platform-tools:$PATH
 export JAVA_HOME=$(/usr/libexec/java_home)
+
 ````
 
 ## Android Emulator / AVD
