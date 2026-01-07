@@ -2,6 +2,7 @@
 
 ## Requirement
 1. nodeJS
+2. adb
 
 ## Install
 ````ps1
