@@ -6,4 +6,7 @@
 ## Install
 ````ps1
 npm install appium webdriverio --save-dev
+
+#
+npm install mocha --save-dev
 ````
