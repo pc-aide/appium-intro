@@ -27,6 +27,12 @@ export ANDROID_SDK_ROOT=/opt/homebrew/share/android-commandlinetools
 export JAVA_HOME=$(/usr/libexec/java_home)
 ````
 
+## Android Emulator / AVD
+````ps1
+emulator -list-avds
+Galaxy_S21
+````
+
 ## Start SRV
 ````ps1
 npm run appium
