@@ -15,7 +15,7 @@ appium driver install uiautomator2 --no-prompt
 
 # device emulator adb
 
-install --cask temurin
+brew install --cask temurin
 ````
 
 ## env var
