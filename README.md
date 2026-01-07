@@ -22,6 +22,7 @@ brew install --cask temurin
 ````ps1
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools:$ANDROID_HOME/cmdline-tools/latest/bin
+export ANDROID_SDK_ROOT=/opt/homebrew/share/android-commandlinetools
 ````
 
 ## Start SRV
