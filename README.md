@@ -2,6 +2,7 @@
 
 ## Requirement
 1. nodeJS
+2. install android-studio 
 
 ## Install
 ````ps1
