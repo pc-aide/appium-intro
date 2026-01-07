@@ -16,6 +16,10 @@ appium driver install uiautomator2 --no-prompt
 # device emulator adb
 ````
 
+## env var
+````ps1
+````
+
 ## Start SRV
 ````ps1
 npm run appium
