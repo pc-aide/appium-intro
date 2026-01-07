@@ -12,7 +12,7 @@ npm install mocha --save-dev
 
 appium driver install uiautomator2 --no-prompt
 
-# adb
+# device emulator adb
 ````
 
 ## Start SRV
