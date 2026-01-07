@@ -2,7 +2,8 @@
 
 ## Requirement
 1. nodeJS
-2. install android-studio 
+2. install android-studio
+3. java
 
 ## Install
 ````ps1
@@ -23,6 +24,7 @@ brew install --cask temurin
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools:$ANDROID_HOME/cmdline-tools/latest/bin
 export ANDROID_SDK_ROOT=/opt/homebrew/share/android-commandlinetools
+export JAVA_HOME=$(/usr/libexec/java_home)
 ````
 
 ## Start SRV
