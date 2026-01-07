@@ -5,6 +5,16 @@
 2. install android-studio
 3. java
 
+## Tools Installés
+- ✓ Android SDK Command-line Tools
+- ✓ Java/OpenJDK (Temurin)
+- ✓ Android Emulator
+- ✓ ADB Platform Tools
+- ✓ Node.js & npm
+- ✓ Appium v3.1.2
+- ✓ Mocha Test Runner
+- ✓ WebdriverIO
+
 ## Install
 ````ps1
 npm install appium webdriverio --save-dev
