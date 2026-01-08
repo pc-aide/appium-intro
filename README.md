@@ -1,7 +1,7 @@
 # appium-intro
 
 ## Requirement
-1. nodeJS
+1. [nodeJS 24-ddl-msi](https://nodejs.org/dist/v24.12.0/node-v24.12.0-x64.msi)
 2. install android-studio
 3. [java 11-ddl-msi](https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.msi)
 
