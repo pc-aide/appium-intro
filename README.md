@@ -4,6 +4,7 @@
 1. [nodeJS 24-ddl-msi](https://nodejs.org/dist/v24.12.0/node-v24.12.0-x64.msi)
 2. install android-studio
 3. [java 11-ddl-msi](https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.msi)
+4. [android-studio-2025-ddl-exe](https://r1---sn-t0aedn7e.gvt1.com/edgedl/android/studio/install/2025.2.2.8/android-studio-2025.2.2.8-windows.exe?cms_redirect=yes&met=1767836466,&mh=DE&mip=4.239.111.110&mm=28&mn=sn-t0aedn7e&ms=nvh&mt=1767836170&mv=m&mvi=1&pl=16&rmhost=r3---sn-t0aedn7e.gvt1.com&rms=nvh,nvh&shardbypass=sd&smhost=r5---sn-t0aedn7l.gvt1.com)
 
 ## Tools Installés
 - ✓ Android SDK Command-line Tools
