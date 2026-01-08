@@ -14,11 +14,20 @@ appium driver install uiautomator2
 
 ## env var
 ````ps1
+JAVA_HOME C:\Program Files\Eclipse Adoptium\jdk-17.x.x.x-hotspot
+
 ANDROID_HOME C:\Users\%localAppdata%\Android\Sdk
 
 PATH %ANDROID_HOME%\platform-tools
 PATH %ANDROID_HOME%\emulator
 PATH %ANDROID_HOME%\cmdline-tools\latest\bin
+
+PATH %JAVA_HOME%\bin
+
+# checkUp
+java -version
+javac -version
+echo %JAVA_HOME%
 ````
 
 ## New AVD
@@ -36,6 +45,9 @@ emulator -avd Pixel_6_API_33
 ## Start SRV
 ````ps1
 npm run appium
+
+# checkUp
+appium doctor
 ````
 
 ## launch the test
