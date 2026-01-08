@@ -10,7 +10,6 @@
 - ✓ Java/OpenJDK (Temurin)
 - ✓ Android Emulator
 - ✓ ADB Platform Tools
-- ✓ Node.js & npm
 - ✓ Appium v3.1.2
 - ✓ Mocha Test Runner
 - ✓ WebdriverIO
