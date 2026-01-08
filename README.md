@@ -54,3 +54,5 @@ appium doctor
 ````ps1
 npm test
 ````
+
+<img src="https://i.imgur.com/EpXwuiu.png">
