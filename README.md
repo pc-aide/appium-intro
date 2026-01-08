@@ -3,7 +3,7 @@
 ## Requirement
 1. nodeJS
 2. install android-studio
-3. java
+3. [java 11-ddl-msi]([375797](https://download.oracle.com/java/25/latest/jdk-25_windows-x64_bin.msi))
 
 ## Tools Installés
 - ✓ Android SDK Command-line Tools
