@@ -25,9 +25,7 @@ javac -version
 echo %JAVA_HOME%
 
 & "$env:SystemRoot\System32\setx.exe" ANDROID_HOME "$env:LOCALAPPDATA\Android\sdk" /M
-PATH %ANDROID_HOME%\platform-tools
-PATH %ANDROID_HOME%\emulator
-PATH %ANDROID_HOME%\cmdline-tools\latest\bin
+& "$env:SystemRoot\System32\setx.exe" PATH "$env:ANDROID_HOME\platform-tools;$env:ANDROID_HOME\emulator;$env:ANDROID_HOME\cmdline-tools\latest\bin;$env:PATH" /M
 ````
 
 ## New AVD
