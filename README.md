@@ -38,11 +38,6 @@ npm i appium
 npx appium driver install uiautomator2
 ````
 
-
-````
-
-<img src="https://i.imgur.com/3UfU0ii.png">
-
 ## New AVD
 ````ps1
 & "$env:LOCALAPPDATA\Android\Sdk\cmdline-tools\latest\bin\avdmanager.bat" create avd `
