@@ -10,7 +10,7 @@
 ## Install
 ````ps1
 npm i appium
-appium driver install uiautomator2
+npx appium driver install uiautomator2
 ````
 
 ## env var
