@@ -9,7 +9,7 @@
 
 ## Install
 ````ps1
-npm install -g appium
+npm i appium
 appium driver install uiautomator2
 ````
 
