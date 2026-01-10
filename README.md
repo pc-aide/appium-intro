@@ -15,7 +15,8 @@ appium driver install uiautomator2
 
 ## env var
 ````ps1
-JAVA_HOME C:\Program Files\Eclipse Adoptium\jdk-17.x.x.x-hotspot
+# installDir
+JAVA_HOME C:\Program Files\Java\jdk-17
 
 ANDROID_HOME C:\Users\%localAppdata%\Android\Sdk
 
