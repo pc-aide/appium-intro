@@ -24,7 +24,7 @@ java -version
 javac -version
 echo %JAVA_HOME%
 
-ANDROID_HOME %localAppdata%\Android\Sdk
+& "$env:SystemRoot\System32\setx.exe" ANDROID_HOME "$env:LOCALAPPDATA\Android\sdk" /M
 PATH %ANDROID_HOME%\platform-tools
 PATH %ANDROID_HOME%\emulator
 PATH %ANDROID_HOME%\cmdline-tools\latest\bin
