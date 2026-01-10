@@ -55,8 +55,11 @@ npx appium driver install uiautomator2
 # delete device
 & "$env:LOCALAPPDATA\Android\Sdk\cmdline-tools\bin\avdmanager.bat" delete avd -n pixel_6_api36
 
-adb devices
+# start AVD
+& "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd pixel_6_pro_api36
 ````
+adb devices
+
 
 ## Start SRV
 ````ps1
