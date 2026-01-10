@@ -16,8 +16,7 @@ npx appium driver install uiautomator2
 ## env var
 ````ps1
 # installDir
-setx JAVA_HOME "C:\Program Files\Java\jdk-17" /M
-setx PATH "%JAVA_HOME%\bin;%PATH%" /M
+setx JAVA_HOME "C:\Program Files\Java\jdk-17" /M ; [Environment]::SetEnvironmentVariable("Path", ([Environment]::GetEnvironmentVariable("Path","Machine") -replace ';%JAVA_HOME%\\bin','') + ';%JAVA_HOME%\bin', "Machine")
 
 # checkUp
 java -version
