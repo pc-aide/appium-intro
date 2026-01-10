@@ -36,14 +36,10 @@ Get-Command adb
 
 ## New AVD
 ````ps1
-emulator -list-avds
-Galaxy_S21
-
-adb devices
-appium doctor --android
-
-# launch emulator
-emulator -avd Pixel_6_API_33
+& "$env:LOCALAPPDATA\Android\Sdk\cmdline-tools\latest\bin\avdmanager.bat" create avd `
+  -n "samsung_galaxy_s21" `
+  -k "system-images;android-34;google_apis;x86_64" `
+  -d "pixel_5"
 ````
 
 ## Start SRV
