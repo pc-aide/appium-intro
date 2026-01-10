@@ -20,8 +20,6 @@ setx JAVA_HOME "C:\Program Files\Java\jdk-17" /M ; [Environment]::SetEnvironment
 
 # checkUp
 java -version
-javac -version
-echo %JAVA_HOME%
 
 & "$env:SystemRoot\System32\setx.exe" ANDROID_HOME "$env:LOCALAPPDATA\Android\sdk" /M
 & "$env:SystemRoot\System32\setx.exe" PATH "$env:ANDROID_HOME\platform-tools;$env:ANDROID_HOME\emulator;$env:ANDROID_HOME\cmdline-tools\latest\bin;$env:PATH" /M
