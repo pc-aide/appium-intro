@@ -2,7 +2,7 @@
 
 ## Requirement
 0. Virtualization enabled  
-   0.1 Minimum cores per socket: 2  
+   0.1 **Minimum cores per socket: 2**
        If the VM is configured with only **1 core per socket**, it **must be shut down**.  
        The application will not run correctly with less than 2 cores per socket.
 1. [nodeJS 24-ddl-msi](https://nodejs.org/dist/v24.12.0/node-v24.12.0-x64.msi)
