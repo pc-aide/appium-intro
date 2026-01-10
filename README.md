@@ -55,6 +55,9 @@ npx appium driver install uiautomator2
 # checkUp
 & "$env:LOCALAPPDATA\Android\Sdk\cmdline-tools\bin\avdmanager.bat" list avd
 
+# delete device
+& "$env:LOCALAPPDATA\Android\Sdk\cmdline-tools\bin\avdmanager.bat" delete avd -n pixel_6_api36
+
 adb devices
 ````
 
