@@ -46,14 +46,13 @@ npx appium driver install uiautomator2
 
 ## New AVD
 ````ps1
-# peixel 6 - Generic medium phon no loger exists as a device
-& "$env:LOCALAPPDATA\Android\Sdk\cmdline-tools\bin\avdmanager.bat" create avd -n pixel_6_pro_api36 -k "system-images;android-36.1;google_apis_playstore;x86_64" -d "pixel_6_pro"
+& "$env:LOCALAPPDATA\Android\Sdk\cmdline-tools\bin\avdmanager.bat" create avd -n "Pixel_6_API_36" -k "system-images;android-36.1;google_apis_playstore;x86_64" -d "pixel_6"
 
 # list devices available
 & "$env:LOCALAPPDATA\Android\Sdk\cmdline-tools\bin\avdmanager.bat" list device
 
-# checkUp
-& "$env:LOCALAPPDATA\Android\Sdk\cmdline-tools\bin\avdmanager.bat" list avd
+# list emulator avd
+& "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -list-avds
 
 # delete device
 & "$env:LOCALAPPDATA\Android\Sdk\cmdline-tools\bin\avdmanager.bat" delete avd -n pixel_6_api36
