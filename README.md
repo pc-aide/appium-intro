@@ -24,7 +24,7 @@ java -version
 javac -version
 echo %JAVA_HOME%
 
-ANDROID_HOME C:\Users\%localAppdata%\Android\Sdk
+ANDROID_HOME %localAppdata%\Android\Sdk
 PATH %ANDROID_HOME%\platform-tools
 PATH %ANDROID_HOME%\emulator
 PATH %ANDROID_HOME%\cmdline-tools\latest\bin
