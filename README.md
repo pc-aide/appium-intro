@@ -19,18 +19,15 @@ appium driver install uiautomator2
 setx JAVA_HOME "C:\Program Files\Java\jdk-17" /M
 setx PATH "%JAVA_HOME%\bin;%PATH%" /M
 
-ANDROID_HOME C:\Users\%localAppdata%\Android\Sdk
-
-PATH %ANDROID_HOME%\platform-tools
-PATH %ANDROID_HOME%\emulator
-PATH %ANDROID_HOME%\cmdline-tools\latest\bin
-
-PATH %JAVA_HOME%\bin
-
 # checkUp
 java -version
 javac -version
 echo %JAVA_HOME%
+
+ANDROID_HOME C:\Users\%localAppdata%\Android\Sdk
+PATH %ANDROID_HOME%\platform-tools
+PATH %ANDROID_HOME%\emulator
+PATH %ANDROID_HOME%\cmdline-tools\latest\bin
 ````
 
 ## New AVD
