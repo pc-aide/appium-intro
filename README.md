@@ -16,6 +16,16 @@ setx JAVA_HOME "C:\Program Files\Java\jdk-17" /M ; [Environment]::SetEnvironment
 java -version
 ````
 
+### androidStudio
+````ps1
+& "$env:SystemRoot\System32\setx.exe" ANDROID_HOME "$env:LOCALAPPDATA\Android\sdk" /M
+& "$env:SystemRoot\System32\setx.exe" PATH "$env:ANDROID_HOME\platform-tools;$env:ANDROID_HOME\emulator;$env:ANDROID_HOME\cmdline-tools\latest\bin;$env:PATH" /M
+
+# checkUp
+echo $env:PATH
+Get-Command adb
+````
+
 ## Install
 ````ps1
 npm i appium
@@ -23,12 +33,6 @@ npx appium driver install uiautomator2
 ````
 
 
-& "$env:SystemRoot\System32\setx.exe" ANDROID_HOME "$env:LOCALAPPDATA\Android\sdk" /M
-& "$env:SystemRoot\System32\setx.exe" PATH "$env:ANDROID_HOME\platform-tools;$env:ANDROID_HOME\emulator;$env:ANDROID_HOME\cmdline-tools\latest\bin;$env:PATH" /M
-
-# checkUp
-echo $env:PATH
-Get-Command adb
 ````
 
 <img src="https://i.imgur.com/3UfU0ii.png">
