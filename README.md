@@ -26,6 +26,10 @@ echo %JAVA_HOME%
 
 & "$env:SystemRoot\System32\setx.exe" ANDROID_HOME "$env:LOCALAPPDATA\Android\sdk" /M
 & "$env:SystemRoot\System32\setx.exe" PATH "$env:ANDROID_HOME\platform-tools;$env:ANDROID_HOME\emulator;$env:ANDROID_HOME\cmdline-tools\latest\bin;$env:PATH" /M
+
+# checkUp
+echo $env:PATH
+Get-Command adb
 ````
 
 ## New AVD
