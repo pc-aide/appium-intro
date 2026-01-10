@@ -26,6 +26,7 @@ java -version
 ### androidStudio
 ````ps1
 & "$env:SystemRoot\System32\setx.exe" ANDROID_HOME "$env:LOCALAPPDATA\Android\sdk" /M
+# used by newAVD
 & "$env:SystemRoot\System32\setx.exe" ANDROID_SDK_ROOT "$env:LOCALAPPDATA\Android\sdk" /M
 & "$env:SystemRoot\System32\setx.exe" PATH "$env:ANDROID_HOME\platform-tools;$env:ANDROID_HOME\emulator;$env:ANDROID_HOME\cmdline-tools\bin;$env:PATH" /M
 
