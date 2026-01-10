@@ -41,7 +41,7 @@ npx appium driver install uiautomator2
 
 ## New AVD
 ````ps1
-& "$env:LOCALAPPDATA\Android\Sdk\cmdline-tools\latest\bin\avdmanager.bat" create avd `
+& "$env:LOCALAPPDATA\Android\Sdk\cmdline-tools\bin\avdmanager.bat" create avd `
   -n "samsung_galaxy_s21" `
   -k "system-images;android-34;google_apis;x86_64" `
   -d "pixel_5"
