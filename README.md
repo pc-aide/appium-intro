@@ -32,6 +32,8 @@ echo $env:PATH
 Get-Command adb
 ````
 
+<img src="https://i.imgur.com/3UfU0ii.png">
+
 ## New AVD
 ````ps1
 emulator -list-avds
