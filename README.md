@@ -55,6 +55,9 @@ npm install webdriverio mocha chai --save-dev
 
 # list
 & "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" start-server
+
+# pixel 6
+& "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd pixel_6
 ````
 
 ## New AVD
