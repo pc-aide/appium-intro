@@ -44,19 +44,7 @@ npm i appium webdriverio mocha chai -D
 npx appium driver install uiautomator2
 ````
 
-## adb
-````ps1
-# start service
-& "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" start-server
-
-# list
-& "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" devices
-
-# pixel 6
-& "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd pixel_6
-````
-
-## New AVD
+## AVD
 ````ps1
 default AVD
 Medium_Phone_API_36.1
@@ -74,7 +62,17 @@ Medium_Phone_API_36.1
 & "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd pixel_6 -no-snapshot-load -wipe-data
 ````
 
+## adb
+````ps1
+# start service
+& "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" start-server
 
+# list
+& "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" devices
+
+# pixel 6
+& "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd pixel_6
+````
 
 ## Start SRV
 ````ps1
