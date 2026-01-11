@@ -44,6 +44,8 @@ appium driver install uiautomator2
 npm install -g appium-doctor
 # what missing for android
 appium-doctor --android
+
+npm install webdriverio mocha chai --save-dev
 ````
 
 ## New AVD
