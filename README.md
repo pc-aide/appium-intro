@@ -50,7 +50,8 @@ npm install webdriverio mocha chai --save-dev
 
 ## New AVD
 ````ps1
-& "$env:LOCALAPPDATA\Android\Sdk\cmdline-tools\bin\avdmanager.bat" create avd -n "Pixel_6_API_36" -k "system-images;android-36.1;google_apis_playstore;x86_64" -d "pixel_6"
+New AVD
+avdmanager create avd -n pixel_6 -k "system-images;android-36.1;google_apis_playstore;x86_64" -d "pixel_6" --force
 
 # list devices available
 & "$env:LOCALAPPDATA\Android\Sdk\cmdline-tools\bin\avdmanager.bat" list device
