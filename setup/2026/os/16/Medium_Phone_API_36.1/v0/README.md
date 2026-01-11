@@ -22,5 +22,5 @@ npm run appium
 
 ## test
 ````ps1
-node tests/searchApp.test.js
+node tests/searchApps.test.js
 ````
