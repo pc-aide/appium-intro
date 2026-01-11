@@ -85,7 +85,7 @@ npx appium
 
 ## launch the test
 ````ps1
-npm test
+npx mocha tests/searchApps.test.js
 ````
 
 <img src="https://i.imgur.com/EpXwuiu.png">
