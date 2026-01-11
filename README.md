@@ -42,6 +42,8 @@ appium driver install uiautomator2
 
 # checkUp cfg with dependencies
 npm install -g appium-doctor
+# what missing for android
+appium-doctor --android
 ````
 
 ## New AVD
