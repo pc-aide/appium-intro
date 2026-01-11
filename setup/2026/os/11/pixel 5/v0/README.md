@@ -93,8 +93,8 @@ sdkmanager "system-images;android-34;google_apis;x86_64"
 # Accepter les licences
 sdkmanager --licenses
 
-# Créer l'AVD Samsung Galaxy S21
-avdmanager create avd -n Samsung_Galaxy_S21 -k "system-images;android-34;google_apis;x86_64" -d "pixel_5" --force
+# Créer l'AVD pixel 5
+avdmanager create avd -n pixel_5 -k "system-images;android-34;google_apis;x86_64" -d "pixel_5" --force
 
 # Vérifier que l'AVD a été créé
 & "$env:ANDROID_HOME\emulator\emulator.exe" -list-avds
@@ -105,11 +105,11 @@ avdmanager create avd -n Samsung_Galaxy_S21 -k "system-images;android-34;google_
 ## 5️⃣ Démarrer l'Émulateur
 
 ```powershell
-# Démarrer l'émulateur Samsung Galaxy S21
-& "$env:ANDROID_HOME\emulator\emulator.exe" -avd Samsung_Galaxy_S21
+# Démarrer l'émulateur pixel_5
+& "$env:ANDROID_HOME\emulator\emulator.exe" -avd pixel_5
 
 # Ou avec options pour machines sans GPU puissant
-& "$env:ANDROID_HOME\emulator\emulator.exe" -avd Samsung_Galaxy_S21 -gpu swiftshader_indirect -no-snapshot
+& "$env:ANDROID_HOME\emulator\emulator.exe" -avd pixel_5 -gpu swiftshader_indirect -no-snapshot
 ```
 
 ### Vérifier que l'émulateur est connecté
