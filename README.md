@@ -46,8 +46,8 @@ npx appium driver install uiautomator2
 
 ## AVD
 ````ps1
-default AVD
-Medium_Phone_API_36.1
+# default : Medium_Phone_API_36.1
+& "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd "Medium_Phone_API_36.1"
 
 # list devices available
 & "$env:LOCALAPPDATA\Android\Sdk\cmdline-tools\bin\avdmanager.bat" list device
