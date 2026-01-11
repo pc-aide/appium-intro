@@ -6,7 +6,7 @@
 & "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe"
 
 # checkUp
-& "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd "Medium_Phone_API_36.1"  # output emulator-5554   device
+& "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" devices  # output emulator-5554   device
 ````
 
 ## AVD
