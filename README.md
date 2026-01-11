@@ -36,6 +36,8 @@ $env:ANDROID_HOME
 
 ## appium
 ````ps1
+npm init -y
+
 # mocha - framework of test
 # chai - libs of assertions
 npm i appium webdriverio mocha chai -D
