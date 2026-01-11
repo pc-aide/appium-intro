@@ -48,6 +48,11 @@ appium-doctor --android
 npm install webdriverio mocha chai --save-dev
 ````
 
+## adb
+````ps1
+& "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" start-server
+````
+
 ## New AVD
 ````ps1
 New AVD
@@ -65,7 +70,7 @@ avdmanager create avd -n pixel_6 -k "system-images;android-36.1;google_apis_play
 # start AVD
 & "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd pixel_6_pro_api36
 ````
-adb devices
+
 
 
 ## Start SRV
