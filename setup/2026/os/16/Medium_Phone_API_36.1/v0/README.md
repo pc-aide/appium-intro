@@ -1,15 +1,18 @@
 # Medium_Phone_API_36.1
 
+## adb
+````ps1
+# start
+& "$env:LOCALAPPDATA\Android\Sdk\
+
+# checkUp
+& "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd "Medium_Phone_API_36.1"  # output emulator-5554   device
+````
+
 ## AVD
 ````ps1
 # default : Medium_Phone_API_36.1
 & "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd "Medium_Phone_API_36.1"
-````
-
-## adb
-````ps1
-# checkUp 
-& "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd "Medium_Phone_API_36.1"  # output emulator-5554   device
 ````
 
 ## appium
