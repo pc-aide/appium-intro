@@ -69,10 +69,10 @@ adb --version             # Doit afficher la version ADB
 
 ```powershell
 # Installer Appium globalement
-npm install -g appium
+npm i appium
 
 # Installer le driver UiAutomator2 pour Android
-appium driver install uiautomator2
+npx appium driver install uiautomator2
 
 # Vérifier l'installation
 appium --version
