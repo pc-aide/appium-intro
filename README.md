@@ -70,9 +70,6 @@ adb devices
 ## Start SRV
 ````ps1
 npm run appium:start
-
-# checkUp
-appium doctor
 ````
 
 ## launch the test
