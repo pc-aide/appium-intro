@@ -75,8 +75,8 @@ npm i appium
 npx appium driver install uiautomator2
 
 # Vérifier l'installation
-appium --version
-appium driver list --installed
+npx appium --version
+npx appium driver list --installed
 ```
 
 ---
