@@ -237,7 +237,7 @@ Pour inspecter les éléments de votre app :
 
 ```powershell
 # Terminal 1 : Démarrer l'émulateur
-& "$env:ANDROID_HOME\emulator\emulator.exe" -avd Samsung_Galaxy_S21
+& "$env:ANDROID_HOME\emulator\emulator.exe" -avd pixel_5
 
 # Terminal 2 : Démarrer Appium
 appium
