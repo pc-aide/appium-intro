@@ -59,7 +59,7 @@ npm install webdriverio mocha chai --save-dev
 & "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -list-avds
 
 # delete device
-& "$env:ANDROID_HOME\cmdline-tools\latest\bin\avdmanager.bat" delete avd -n Medium_Phone_API_36.1
+& "$env:ANDROID_HOME\cmdline-tools\bin\avdmanager.bat" delete avd -n Medium_Phone_API_36.1
 
 # start AVD
 & "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd pixel_6_pro_api36
