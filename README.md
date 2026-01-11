@@ -39,11 +39,8 @@ $env:ANDROID_HOME
 npm i appium
 appium driver install uiautomator2
 
-# checkUp cfg with dependencies
-npm install -g appium-doctor
-# what missing for android
-appium-doctor --android
-
+# mocha - framework of test
+# chai - libs of assertions
 npm install webdriverio mocha chai --save-dev
 ````
 
