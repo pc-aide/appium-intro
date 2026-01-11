@@ -22,5 +22,5 @@ npm run appium
 
 ## test
 ````ps1
-node tests/searchApps.test.js
+npx mocha tests/searchApps.test.js
 ````
