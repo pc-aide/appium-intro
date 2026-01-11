@@ -34,14 +34,14 @@ java -version
 $env:ANDROID_HOME
 ````
 
-## Install
+## appium
 ````ps1
-npm i appium
-appium driver install uiautomator2
-
 # mocha - framework of test
 # chai - libs of assertions
-npm install webdriverio mocha chai --save-dev
+npm i appium webdriverio mocha chai -D
+
+# driver uiautomator2
+npx appium driver install uiautomator2
 ````
 
 ## adb
