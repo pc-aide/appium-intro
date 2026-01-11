@@ -75,7 +75,7 @@ avdmanager create avd -n pixel_6 -k "system-images;android-36.1;google_apis_play
 & "$env:ANDROID_HOME\cmdline-tools\bin\avdmanager.bat" delete avd -n Medium_Phone_API_36.1
 
 # start AVD
-& "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd pixel_6_pro_api36
+& "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd pixel_6 -no-snapshot-load -wipe-data
 ````
 
 
