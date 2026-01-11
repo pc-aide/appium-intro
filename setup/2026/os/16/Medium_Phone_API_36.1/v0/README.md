@@ -6,7 +6,7 @@
 & "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe"
 
 # checkUp
-& "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" devices  # output emulator-5554   device
+& "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" devices # output emulator-5554   device
 ````
 
 ## AVD
