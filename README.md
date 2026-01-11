@@ -50,7 +50,7 @@ npx appium driver install uiautomator2
 & "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" start-server
 
 # list
-& "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" start-server
+& "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" devices
 
 # pixel 6
 & "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd pixel_6
