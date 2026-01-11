@@ -76,7 +76,7 @@ npx appium driver install uiautomator2
 
 ## Start SRV
 ````ps1
-npm run appium:start
+npm run appium
 ````
 
 ## launch the test
