@@ -39,6 +39,9 @@ Get-Command adb
 ````ps1
 npm i appium
 appium driver install uiautomator2
+
+# checkUp cfg with dependencies
+npm install -g appium-doctor
 ````
 
 ## New AVD
