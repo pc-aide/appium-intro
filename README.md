@@ -50,6 +50,10 @@ npm install webdriverio mocha chai --save-dev
 
 ## adb
 ````ps1
+# start service
+& "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" start-server
+
+# list
 & "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" start-server
 ````
 
