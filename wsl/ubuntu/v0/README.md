@@ -69,3 +69,8 @@ sdkmanager --install "platform-tools" "platforms;android-34" "build-tools;34.0.0
 ````sh
 adb version
 ````
+
+## AVD
+````sh
+avdmanager create avd -n pixel_5_api34 -k "system-images;android-34;google_apis;x86_64" --device "pixel_5"
+````
