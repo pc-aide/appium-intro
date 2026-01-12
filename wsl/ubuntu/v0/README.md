@@ -17,5 +17,5 @@ sudo apt update && sudo apt upgrade -y
 ### nodeJS
 ````sh
 # latest
-
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 ````
