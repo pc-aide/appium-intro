@@ -1,0 +1,1 @@
+some users have experienced emulator stability issue with this driver version. as a result we're selecting a compatibility renderer. please check with your manufactyurer to see if there is an update driver available
