@@ -24,3 +24,10 @@ sudo apt install -y nodejs
 which node # output /user/bin/node
 which npm # output /user/bin/npm
 ````
+
+### java17
+````sh
+sudo apt install -y openjdk-17-jdk
+
+# checkUp
+````
