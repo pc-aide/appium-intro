@@ -8,3 +8,8 @@
 ````ps1
 wsl --install -d Ubuntu --name test-ubu-appium-v11
 ````
+
+### updates
+````ps1
+sudo apt update && sudo apt upgrade -y
+````
