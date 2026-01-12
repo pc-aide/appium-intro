@@ -99,6 +99,11 @@ avdmanager create avd -n pixel_5_api34 -k "system-images;android-34;google_apis;
 emulator -avd pixel_5_api34
 ````
 
+### adb
+````sh
+adb devices # output emulator-5554 device
+````
+
 ### appium
 ````sh
 # mocha - framework of test
