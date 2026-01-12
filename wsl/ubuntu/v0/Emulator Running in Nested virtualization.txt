@@ -1,0 +1,1 @@
+ emulator is running using nested virtulization. this is not recommended. it may not work at all. and tipically the perfomance is not quite good
