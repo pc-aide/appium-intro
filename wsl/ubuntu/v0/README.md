@@ -99,6 +99,11 @@ avdmanager create avd -n pixel_5_api34 -k "system-images;android-34;google_apis;
 emulator -avd pixel_5_api34
 ````
 
+## emulator
+````sh
+# ? emulator -avd <nom_avd> -gpu swiftshader_indirect
+````
+
 ### adb
 ````sh
 adb devices # output emulator-5554 device
@@ -114,7 +119,7 @@ npm i appium webdriverio mocha chai -D
 npx appium driver install uiautomator2
 ````
 
-### start serv
+### start srv
 ````sh
 npx appium
 ````
