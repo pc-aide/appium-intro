@@ -113,3 +113,5 @@ npm i appium webdriverio mocha chai -D
 # driver uiautomator2
 npx appium driver install uiautomator2
 ````
+
+<img src="https://i.imgur.com/kcvib7g.png">
