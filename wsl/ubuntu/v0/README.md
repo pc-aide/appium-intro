@@ -25,7 +25,7 @@ which node # output /user/bin/node
 which npm # output /user/bin/npm
 ````
 
-### java17
+### java
 ````sh
 sudo apt install -y openjdk-17-jdk
 
