@@ -30,4 +30,5 @@ which npm # output /user/bin/npm
 sudo apt install -y openjdk-17-jdk
 
 # checkUp
+java --version
 ````
