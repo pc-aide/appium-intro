@@ -10,11 +10,12 @@ wsl --install -d Ubuntu --name test-ubu-appium-v11
 ````
 
 ### updates
-````ps1
+````sh
 sudo apt update && sudo apt upgrade -y
 ````
 
 ### nodeJS
 ````sh
+# latest
 
 ````
