@@ -58,6 +58,9 @@ npx appium driver install uiautomator2
 
 # after
 # emulator-5554   device
+
+# apk
+& "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" install -r -g "C:\<youtPath>\app.apk"
 ````
 
 ## AVD
