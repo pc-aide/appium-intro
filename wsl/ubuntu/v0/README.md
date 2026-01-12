@@ -114,4 +114,16 @@ npm i appium webdriverio mocha chai -D
 npx appium driver install uiautomator2
 ````
 
+### start serv
+````sh
+npx appium
+````
+
+### test
+````sh
+npx mocha tests/searchApps.test.js
+````
+
+
+
 <img src="https://i.imgur.com/kcvib7g.png">
