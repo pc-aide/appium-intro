@@ -50,5 +50,5 @@ cd cmdline-tools/
 
 #### export ANDROID_home
 ````sh
-export PATH=\$PATH:\$ANDROID_HOME/cmdline-tools/latest/bin:\$ANDROID_HOME/platform-tools" >> ~/.bashrc
+export PATH=\$PATH:\$ANDROID_HOME/cmdline-tools/latest/bin:\$ANDROID_HOME/platform-tools >> ~/.bashrc
 ````
