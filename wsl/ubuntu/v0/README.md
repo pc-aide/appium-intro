@@ -68,6 +68,15 @@ yes | sdkmanager --licenses
 sdkmanager --install "platform-tools" "platforms;android-34" "build-tools;34.0.0" "emulator" "system-images;android-34;google_apis;x86_64"
 ````
 
+## emulator
+````sh
+echo 'export PATH="$PATH:$ANDROID_HOME/emulator"' >> ~/.bashrc
+source ~/.bashrc
+
+# checkUp
+emulator -list-avds
+````
+
 ### adb
 ````sh
 adb version
