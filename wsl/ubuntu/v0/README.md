@@ -13,3 +13,8 @@ wsl --install -d Ubuntu --name test-ubu-appium-v11
 ````ps1
 sudo apt update && sudo apt upgrade -y
 ````
+
+### nodeJS
+````sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+````
