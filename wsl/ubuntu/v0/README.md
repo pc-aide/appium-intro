@@ -86,6 +86,9 @@ adb version
 ### kvm
 ````sh
 sudo gpasswd -a $USER kvm
+
+# checkUp
+groups # output kvm for your user
 ````
 
 ### AVD
