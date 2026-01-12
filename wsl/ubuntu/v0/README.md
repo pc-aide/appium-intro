@@ -23,4 +23,8 @@ source ~/.bashrc
 
 # latest version nodeJS
 nvm install --lts
+
+# checkUp
+node -v
+npm -v
 ````
