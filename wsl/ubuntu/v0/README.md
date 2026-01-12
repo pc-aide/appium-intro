@@ -65,12 +65,22 @@ yes | sdkmanager --licenses
 sdkmanager --install "platform-tools" "platforms;android-34" "build-tools;34.0.0" "emulator" "system-images;android-34;google_apis;x86_64"
 ````
 
-## adb
+### adb
 ````sh
 adb version
 ````
 
-## AVD
+### AVD
 ````sh
 avdmanager create avd -n pixel_5_api34 -k "system-images;android-34;google_apis;x86_64" --device "pixel_5"
+````
+
+### appium
+````sh
+# mocha - framework of test
+# chai - libs of assertions
+npm i appium webdriverio mocha chai -D
+
+# driver uiautomator2
+npx appium driver install uiautomator2
 ````
