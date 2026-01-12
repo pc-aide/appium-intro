@@ -9,9 +9,12 @@
 wsl --install -d Ubuntu --name test-ubu-appium-v11
 ````
 
-### updates
+### Requirement
 ````sh
 sudo apt update && sudo apt upgrade -y
+
+# libs
+sudo apt install libpulse0
 ````
 
 ### unzip
