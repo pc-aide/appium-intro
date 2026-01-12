@@ -14,6 +14,11 @@ wsl --install -d Ubuntu --name test-ubu-appium-v11
 sudo apt update && sudo apt upgrade -y
 ````
 
+### unzip
+````sh
+sudo apt install -y unzip
+````
+
 ### nodeJS
 ````sh
 # latest
@@ -31,4 +36,11 @@ sudo apt install -y openjdk-17-jdk
 
 # checkUp
 java --version
+````
+
+### android
+````sh
+wget https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip -O cmdline-tools.zip
+
+unzip -o cmdline-tools.zip
 ````
