@@ -47,3 +47,9 @@ unzip -o cmdline-tools.zip
 cd cmdline-tools/
 
 ````
+
+#### export ANDROID_home
+````sh
+export ANDROID_HOME=~/appium_v11
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools
+````
