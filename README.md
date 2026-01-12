@@ -17,7 +17,18 @@ npm -v
 ### java
 ````ps1
 # installDir
-setx JAVA_HOME "C:\Program Files\Java\jdk-17" /M ; [Environment]::SetEnvironmentVariable("Path", ([Environment]::GetEnvironmentVariable("Path","Machine") -replace ';%JAVA_HOME%\\bin','') + ';%JAVA_HOME%\bin', "Machine")
+setx JAVA_HOME `
+    "C:\Program Files\Java\jdk-17" `
+    /M
+
+[Environment]::SetEnvironmentVariable(
+    "Path",
+    (
+        [Environment]::GetEnvironmentVariable("Path","Machine") `
+        -replace ';%JAVA_HOME%\\bin',''
+    ) + ';%JAVA_HOME%\bin',
+    "Machine"
+)
 
 # checkUp
 java -version
