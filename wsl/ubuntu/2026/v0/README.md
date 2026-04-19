@@ -95,6 +95,9 @@ grep -E "hw.cpu.arch|hw.ramSize|disk.dataPartition.size" ~/.android/avd/pixel_5_
 disk.dataPartition.size = 6.00 GB
 hw.cpu.arch = x86_64
 hw.ramSize = 1536M
+
+# 4 Go RAM
+sed -i 's/hw.ramSize = 1536M/hw.ramSize = 4096M/' ~/.android/avd/pixel_5_api34.avd/config.ini
 ````
 
 ## appium
