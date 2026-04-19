@@ -98,6 +98,9 @@ hw.ramSize = 1536M
 
 # 4 Go RAM
 sed -i 's/hw.ramSize = 1536M/hw.ramSize = 4096M/' ~/.android/avd/pixel_5_api34.avd/config.ini
+
+# checkUp
+grep "hw.ramSize" ~/.android/avd/pixel_5_api34.avd/config.ini
 ````
 
 ## appium
