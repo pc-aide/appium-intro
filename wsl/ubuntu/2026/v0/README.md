@@ -117,3 +117,8 @@ npx appium driver install uiautomator2
 ````sh
 npx appium
 ````
+
+test
+````
+npx mocha tests/searchApps.test.js
+````
