@@ -120,9 +120,10 @@ module.exports = {
   host: '127.0.0.1',
   automationName: 'UiAutomator2',
   platformName: 'Android',
-  platformVersion: '13', // pixel5
-  deviceName: 'pixel5',
-  app: null, // Pour tester les apps système
+  platformVersion: '13',
+  deviceName: 'Pixel 5',
+  udid: 'emulator-5554',
+  app: null,
   autoGrantPermissions: true,
   autoWebview: false,
   newCommandTimeout: 60,
