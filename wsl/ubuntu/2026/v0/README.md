@@ -62,4 +62,9 @@ sdkmanager --install "platform-tools" "platforms;android-34" "build-tools;34.0.0
 
 ## emulator
 ````sh
+echo 'export PATH="$PATH:$ANDROID_HOME/emulator"' >> ~/.bashrc
+source ~/.bashrc
+
+# checkUp
+emulator -list-avds
 ````
