@@ -37,9 +37,31 @@ cd cmdline-tools/
 
 ## export ANDROID_home
 ````sh
-export PATH=\$PATH:\$ANDROID_HOME/cmdline-tools/latest/bin:\$ANDROID_HOME/platform-tools >> ~/.bashrc
+# 1. Créer la structure Android correcte
+mkdir -p ~/Android/cmdline-tools/latest
 
-echo 'export PATH="$PATH:$ANDROID_HOME/emulator"' >> ~/.bashrc
+# 2. Vérifier où vous êtes actuellement
+pwd
+
+# 3. Vous êtes dans ~/cmdline-tools/, bouger les fichiers
+cd ~/cmdline-tools
+ls -la
+
+# 4. Déplacer TOUT le contenu vers la bonne location
+mv * ~/Android/cmdline-tools/latest/
+
+# 5. Vérifier que sdkmanager est là
+ls -la ~/Android/cmdline-tools/latest/bin/
+
+# 6. Nettoyer le bashrc (effacer les mauvaises entrées)
+cat ~/.bashrc | grep -v "ANDROID_HOME\|cmdline-tools" > ~/.bashrc.tmp
+mv ~/.bashrc.tmp ~/.bashrc
+
+# env var
+echo 'export ANDROID_HOME=$HOME/Android' >> ~/.bashrc
+echo 'export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator' >> ~/.bashrc
+
+# reload
 source ~/.bashrc
 
 # checkUp
