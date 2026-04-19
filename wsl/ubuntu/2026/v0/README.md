@@ -69,6 +69,14 @@ source ~/.bashrc
 emulator -list-avds
 ````
 
+## kvm
+````sh
+sudo gpasswd -a $USER kvm
+
+# checkUp
+groups # output kvm for your user
+````
+
 ## AVD
 ````sh
 avdmanager create avd -n pixel_5_api34 -k "system-images;android-34;google_apis;x86_64" --device "pixel_5"
