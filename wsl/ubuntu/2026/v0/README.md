@@ -34,3 +34,14 @@ unzip -o cmdline-tools.zip
 
 cd cmdline-tools/
 ````
+
+## export ANDROID_home
+````sh
+export PATH=\$PATH:\$ANDROID_HOME/cmdline-tools/latest/bin:\$ANDROID_HOME/platform-tools >> ~/.bashrc
+
+echo 'export PATH="$PATH:$ANDROID_HOME/emulator"' >> ~/.bashrc
+source ~/.bashrc
+
+# checkUp
+sdkmanager --version # output 12.0
+````
