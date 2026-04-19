@@ -120,15 +120,21 @@ module.exports = {
   hostname: '127.0.0.1',
   port: 4723,
   path: '/',
-  platformName: 'Android',
-  'appium:automationName': 'UiAutomator2',
-  'appium:platformVersion': '14',
-  'appium:deviceName': 'Pixel 5',
-  'appium:udid': 'emulator-5554',
-  'appium:appPackage': 'com.android.settings',
-  'appium:appActivity': 'com.android.settings.Settings',
-  'appium:autoGrantPermissions': true,
-  'appium:newCommandTimeout': 60
+  capabilities: {
+    platformName: 'Android',
+    'appium:automationName': 'UiAutomator2',
+    'appium:platformVersion': '14',
+    'appium:deviceName': 'Pixel 5',
+    'appium:udid': 'emulator-5554',
+    'appium:appPackage': 'com.android.settings',
+    'appium:appActivity': 'com.android.settings.Settings',
+    'appium:autoGrantPermissions': true,
+    'appium:newCommandTimeout': 60,
+    // Configuration pour l'enregistrement vidéo (optimisé pour taille)
+    'appium:videoQuality': 'medium',
+    'appium:videoSize': '720x480',
+    'appium:videoCodec': 'mpeg4'
+  }
 };
 ````
 
