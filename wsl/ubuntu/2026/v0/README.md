@@ -116,18 +116,19 @@ npx appium driver install uiautomator2
 ## webdriver.config.js
 ````sh
 module.exports = {
+  protocol: 'http',
+  hostname: '127.0.0.1',
   port: 4723,
-  host: '127.0.0.1',
-  automationName: 'UiAutomator2',
+  path: '/',
   platformName: 'Android',
-  platformVersion: '13',
-  deviceName: 'Pixel 5',
-  udid: 'emulator-5554',
-  app: null,
-  autoGrantPermissions: true,
-  autoWebview: false,
-  newCommandTimeout: 60,
-  connectHardwareKeyboard: true
+  'appium:automationName': 'UiAutomator2',
+  'appium:platformVersion': '14',
+  'appium:deviceName': 'Pixel 5',
+  'appium:udid': 'emulator-5554',
+  'appium:appPackage': 'com.android.settings',
+  'appium:appActivity': 'com.android.settings.Settings',
+  'appium:autoGrantPermissions': true,
+  'appium:newCommandTimeout': 60
 };
 ````
 
