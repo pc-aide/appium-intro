@@ -9,8 +9,11 @@ wsl --install -d Ubuntu --name apm_v19
 ````sh
 sudo apt update && sudo apt upgrade -y
 
-# libs, app
-sudo apt install -y libpulse0 unzip
+# libs, app (java)
+sudo apt install -y libpulse0 unzip openjdk-17-jdk
+
+# checkUp
+java --version
 ````
 
 ## nodeJS
@@ -22,3 +25,4 @@ sudo apt install -y nodejs
 which node # output /user/bin/node
 which npm # output /user/bin/npm
 ````
+
