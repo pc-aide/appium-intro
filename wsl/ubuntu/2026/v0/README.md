@@ -112,3 +112,8 @@ npm i appium webdriverio mocha chai -D
 # driver uiautomator2
 npx appium driver install uiautomator2
 ````
+
+## start srv
+````sh
+npx appium
+````
