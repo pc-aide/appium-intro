@@ -105,4 +105,10 @@ grep "hw.ramSize" ~/.android/avd/pixel_5_api34.avd/config.ini
 
 ## appium
 ````sh
+# mocha - framework of test
+# chai - libs of assertions
+npm i appium webdriverio mocha chai -D
+
+# driver uiautomator2
+npx appium driver install uiautomator2
 ````
