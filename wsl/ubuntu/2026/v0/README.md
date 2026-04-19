@@ -48,7 +48,7 @@ echo 'export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/pla
 source ~/.bashrc
 
 # checkUp
-sdkmanager --version
+sdkmanager --version # output 12.0
 ````
 
 ## sdkmanger
