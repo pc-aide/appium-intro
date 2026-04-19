@@ -59,3 +59,7 @@ yes | sdkmanager --licenses
 # download
 sdkmanager --install "platform-tools" "platforms;android-34" "build-tools;34.0.0" "emulator" "system-images;android-34;google_apis;x86_64"
 ````
+
+## emulator
+````sh
+````
