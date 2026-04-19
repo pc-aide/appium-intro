@@ -26,3 +26,11 @@ which node # output /user/bin/node
 which npm # output /user/bin/npm
 ````
 
+## android
+````sh
+wget https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip -O cmdline-tools.zip
+
+unzip -o cmdline-tools.zip
+
+cd cmdline-tools/
+````
