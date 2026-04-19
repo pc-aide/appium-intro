@@ -113,7 +113,7 @@ npm i appium webdriverio mocha chai -D
 npx appium driver install uiautomator2
 ````
 
-## appium.config.js
+## webdriver.config.js
 ````sh
 module.exports = {
   port: 4723,
