@@ -32,38 +32,25 @@ wget https://dl.google.com/android/repository/commandlinetools-linux-11076708_la
 
 unzip -o cmdline-tools.zip
 
-cd cmdline-tools/
-````
-
-## export ANDROID_home
-````sh
-# 1. Créer la structure Android correcte
 mkdir -p ~/Android/cmdline-tools/latest
 
-# 2. Vérifier où vous êtes actuellement
-pwd
+mv cmdline-tools/* ~/Android/cmdline-tools/latest/
+rmdir cmdline-tools
 
-# 3. Vous êtes dans ~/cmdline-tools/, bouger les fichiers
-cd ~/cmdline-tools
-ls -la
-
-# 4. Déplacer TOUT le contenu vers la bonne location
-mv * ~/Android/cmdline-tools/latest/
-
-# 5. Vérifier que sdkmanager est là
+# checkUp
 ls -la ~/Android/cmdline-tools/latest/bin/
 
-# 6. Nettoyer le bashrc (effacer les mauvaises entrées)
-cat ~/.bashrc | grep -v "ANDROID_HOME\|cmdline-tools" > ~/.bashrc.tmp
-mv ~/.bashrc.tmp ~/.bashrc
-
-# env var
+# env vars
 echo 'export ANDROID_HOME=$HOME/Android' >> ~/.bashrc
 echo 'export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator' >> ~/.bashrc
 
-# reload
+# relaod
 source ~/.bashrc
 
 # checkUp
-sdkmanager --version # output 12.0
+sdkmanager --version
+````
+
+## sdkmanger
+````sh
 ````
