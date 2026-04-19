@@ -75,6 +75,8 @@ sudo gpasswd -a $USER kvm
 
 # checkUp
 groups # output kvm for your user
+
+# need logOff user, if not err when launched emulaor avd <device>
 ````
 
 ## AVD
