@@ -88,6 +88,13 @@ emulator -avd pixel_5_api34
 
 # list-avds
 emulator -list-avds
+
+## spec avd
+grep -E "hw.cpu.arch|hw.ramSize|disk.dataPartition.size" ~/.android/avd/pixel_5_api34.avd/config.ini | awk -F'=' '/disk.dataPartition.size/ {printf "disk.dataPartition.size = %.2f GB\n", $2/1024/1024/1024} !/disk.dataPartition.size/ {print}'
+
+disk.dataPartition.size = 6.00 GB
+hw.cpu.arch = x86_64
+hw.ramSize = 1536M
 ````
 
 ## appium
