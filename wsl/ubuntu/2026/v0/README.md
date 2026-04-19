@@ -89,3 +89,7 @@ emulator -avd pixel_5_api34
 # list-avds
 emulator -list-avds
 ````
+
+## appium
+````sh
+````
