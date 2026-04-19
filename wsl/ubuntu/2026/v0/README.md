@@ -85,4 +85,7 @@ avdmanager create avd -n pixel_5_api34 -k "system-images;android-34;google_apis;
 
 # launched
 emulator -avd pixel_5_api34
+
+# list-avds
+emulator -list-avds
 ````
