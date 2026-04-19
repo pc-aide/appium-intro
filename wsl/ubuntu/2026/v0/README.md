@@ -113,6 +113,23 @@ npm i appium webdriverio mocha chai -D
 npx appium driver install uiautomator2
 ````
 
+## appium.config.js
+````sh
+module.exports = {
+  port: 4723,
+  host: '127.0.0.1',
+  automationName: 'UiAutomator2',
+  platformName: 'Android',
+  platformVersion: '13', // pixel5
+  deviceName: 'pixel5',
+  app: null, // Pour tester les apps système
+  autoGrantPermissions: true,
+  autoWebview: false,
+  newCommandTimeout: 60,
+  connectHardwareKeyboard: true
+};
+````
+
 ## start srv
 ````sh
 npx appium
