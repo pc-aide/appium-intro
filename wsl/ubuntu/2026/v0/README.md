@@ -68,3 +68,11 @@ source ~/.bashrc
 # checkUp
 emulator -list-avds
 ````
+
+## AVD
+````sh
+avdmanager create avd -n pixel_5_api34 -k "system-images;android-34;google_apis;x86_64" --device "pixel_5"
+
+# launched
+emulator -avd pixel_5_api34
+````
