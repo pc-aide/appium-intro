@@ -10,8 +10,6 @@ wsl --install -d Ubuntu --name apm_v19
 sudo apt update && sudo apt upgrade -y
 
 # libs
-sudo apt install -y libpulse0
+sudo apt install -y libpulse0 unzip
 
-# apps
-sudo apt install -y unzip
 ````
